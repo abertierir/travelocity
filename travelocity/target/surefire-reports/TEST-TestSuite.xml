@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="491.626" tests="8" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity\target\test-classes;C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity\target\classes;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\andrea.bertieri\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\andrea.bertieri\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\andrea.bertieri\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\andrea.bertieri\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\andrea.bertieri\.m2\repository\io\github\bonigarcia\webdrivermanager\3.6.2\webdrivermanager-3.6.2.jar;C:\Users\andrea.bertieri\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\andrea.bertieri\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\andrea.bertieri\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andrea.bertieri\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\andrea.bertieri\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\andrea.bertieri\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="user.country.format" value="CO"/>
+    <property name="suiteXmlFile" value="Suite.xml"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ANDREA~1.BER\AppData\Local\Temp\surefire7334265818893958118\surefirebooter8815455266791851505.jar C:\Users\andrea.bertieri\AppData\Local\Temp\surefire7334265818893958118 2019-09-18T06-53-11_362-jvmRun1 surefire1126140139506345024tmp surefire_05548235388123163134tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity\target\test-classes;C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity\target\classes;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\andrea.bertieri\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\andrea.bertieri\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\andrea.bertieri\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\andrea.bertieri\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\andrea.bertieri\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\andrea.bertieri\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\andrea.bertieri\.m2\repository\io\github\bonigarcia\webdrivermanager\3.6.2\webdrivermanager-3.6.2.jar;C:\Users\andrea.bertieri\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\andrea.bertieri\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\andrea.bertieri\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\andrea.bertieri\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andrea.bertieri\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\andrea.bertieri\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\andrea.bertieri\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\andrea.bertieri\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\andrea.bertieri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANDREA~1.BER\AppData\Local\Temp\surefire7334265818893958118\surefirebooter8815455266791851505.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="andrea.bertieri"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\andrea.bertieri\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANDREA~1.BER\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\andrea.bertieri\Documents\Academy\C. Final Project\web_automation\travelocity"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\andrea.bertieri\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\andrea.bertieri\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\developer\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Drivers\geckodriver-v0.24.0-win64;C:\Users\andrea.bertieri\AppData\Local\Android\Sdk\build-tools;C:\Users\andrea.bertieri\AppData\Local\Android\Sdk\platform-tools;C:\Users\andrea.bertieri\AppData\Local\Android\Sdk\tools;C:\Users\andrea.bertieri\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="completeFormTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="26.984"/>
+  <testcase name="completeFormTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="17.746"/>
+  <testcase name="selectFlightsTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="65.352">
+    <failure message="Expected condition failed: waiting for element ([[FirefoxDriver: firefox on WINDOWS (aa5ce36a-3b45-444f-bca6-6853b9e9999f)] -&gt; css selector: div[class=&quot;grid-container standard-padding &quot;]]) to become stale (tried for 50 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;CO-IT002705&apos;, ip: &apos;10.130.18.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 11972, moz:profile: C:\Users\andrea.bertieri\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: aa5ce36a-3b45-444f-bca6-6853b9e9999f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element ([[FirefoxDriver: firefox on WINDOWS (aa5ce36a-3b45-444f-bca6-6853b9e9999f)] -> css selector: div[class="grid-container standard-padding "]]) to become stale (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CO-IT002705', ip: '10.130.18.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 11972, moz:profile: C:\Users\andrea.bertieri\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa5ce36a-3b45-444f-bca6-6853b9e9999f
+	at com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest.selectFlightsTest(buyTicketsBasicFlowTest.java:59)
+</failure>
+    <system-out><![CDATA[[main] 06:53:55,976 INFO  [FirefoxTest] Close Driver
+[main] 06:54:14,308 INFO  [FirefoxTest] Changing to Flight Window
+[main] 06:54:14,974 INFO  [FirefoxTest] Executing Fligths Searcher Form with Flying from: [LAS], Flying to: [LAX], Departing date: [2020-01-03], Returning date: [2020-05-03], 	How many adults?: [1]
+[main] 06:54:17,742 INFO  [FirefoxTest] Searching Date
+[main] 06:54:19,954 INFO  [FirefoxTest] Searching Date
+[main] 06:54:28,739 INFO  [FirefoxTest] Sorting Flights
+[main] 06:54:29,100 INFO  [FirefoxTest] Choosing first flight
+]]></system-out>
+    <system-err><![CDATA[1568807635980	Marionette	INFO	Stopped listening on port 64144
+[Parent 14160, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19760, Chrome_ChildThrea[Parent 14160, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14160, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7108, Chrome_ChildThrea[GPU 14116, Chrom
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e_ChildThread] WARNING: pipe error: 109: file z:/tas
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1568807640654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANDREA~1.BER\\AppData\\Local\\Temp\\rust_mozprofilehhGogc"
+1568807641683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568807641684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568807641684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568807641684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1568807644387	Marionette	INFO	Listening on port 64578
+1568807644816	Marionette	WARN	TLS certificate errors will be ignored for this session
+sep 18, 2019 6:54:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://cdn-view.c3tag.com/v.js?cid=438&c3=N410601.218EXPEDIA-249551141&creative=110195350&placement=249551141&advertiser=5980224&adid=445988246&size=300x250&campaign=22094400, line 10: TypeError: Argument 1 of IntersectionObserver.observe is not an object.
+1568807655678	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1568807656655	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1568807657533	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1568807659751	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1568807662498	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+c@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:39873
+open@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:40395
+open/<@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:151470
+open@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:151493
+value@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:476079
+open_exit_unit_window@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:226800
+open_exit_unit@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:228697
+z@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_travelocityonexp_legacy.js:1:90023
+r/<@https://a.cdn.intentmedia.net/javascripts/intent_media_travelocityonexp.js:1:66782
+u/<@https://a.cdn.intentmedia.net/javascripts/intent_media_travelocityonexp.js:1:40583
+5672/t.exports@https://a.cdn.intentmedia.net/javascripts/intent_media_travelocityonexp.js:1:32126
+u@https://a.cdn.intentmedia.net/javascripts/intent_media_travelocityonexp.js:1:40537
+d@https://a.cdn.intentmedia.net/javascripts/intent_media_travelocityonexp.js:1:41176
+openExitUnit@https://a.travel-assets.com/bundles/storefront-flex-web/script/intent-media-ee1137b231b2297297dd566cf8f891e8-min.js:2:1068
+@https://a.travel-assets.com/bundles/storefront-flex-web/script/intent-media-ee1137b231b2297297dd566cf8f891e8-min.js:3:5948
+dispatch@https://c.travel-assets.com/uitoolkit/2-222/23fcf7571dc86da3ece88323cd4b804168db79aa/core/js/uitk-jquery-jstemplate-bundle-min.js:2:18894
+add/g.handle@https://c.travel-assets.com/uitoolkit/2-222/23fcf7571dc86da3ece88323cd4b804168db79aa/core/js/uitk-jquery-jstemplate-bundle-min.js:2:16913
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:192:11
+JavaScript error: https://a.travel-assets.com/bundles/expweb/flight-search-scripts/flights-scripts-421686108fe2e89ed068ac7bd96df341-min.js, line 213: TypeError: this.uitkBrowserStorage is null
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 235: TypeError: this._inputFieldEvents is undefined
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 235: TypeError: this._inputFieldEvents is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 81: TypeError: browser is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+]]></system-err>
+  </testcase>
+  <testcase name="selectFlightsTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="65.946"/>
+  <testcase name="sortingFlightsResultTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="24.812"/>
+  <testcase name="sortingFlightsResultTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="15.431"/>
+  <testcase name="whoIsTravelingTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="80.924"/>
+  <testcase name="whoIsTravelingTest" classname="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest" time="74.454"/>
+</testsuite>

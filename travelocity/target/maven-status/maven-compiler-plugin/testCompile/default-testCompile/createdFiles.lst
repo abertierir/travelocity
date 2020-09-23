@@ -1,0 +1,3 @@
+com\globant\testing\exercise1\tests\BaseTest.class
+com\globant\testing\exercise1\BrowserDriverFactory.class
+com\globant\testing\exercise1\tests\buyTicketsBasicFlowTest.class

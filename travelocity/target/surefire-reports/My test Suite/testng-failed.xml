@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [My test Suite]">
+  <test thread-count="5" verbose="0" name="FirefoxTest(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest">
+        <methods>
+          <include name="selectFlightsTest" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [My test Suite] -->

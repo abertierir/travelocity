@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My test Suite">
+	<test name="FirefoxTest">
+  <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ChromeTest">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite>

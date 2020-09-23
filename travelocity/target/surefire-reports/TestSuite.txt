@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 491.626 s <<< FAILURE! - in TestSuite
+selectFlightsTest(com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest)  Time elapsed: 65.352 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element ([[FirefoxDriver: firefox on WINDOWS (aa5ce36a-3b45-444f-bca6-6853b9e9999f)] -> css selector: div[class="grid-container standard-padding "]]) to become stale (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CO-IT002705', ip: '10.130.18.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.25.0, moz:headless: false, moz:processID: 11972, moz:profile: C:\Users\andrea.bertieri\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa5ce36a-3b45-444f-bca6-6853b9e9999f
+	at com.globant.testing.exercise1.tests.buyTicketsBasicFlowTest.selectFlightsTest(buyTicketsBasicFlowTest.java:59)
+

@@ -1,0 +1,8 @@
+com\globant\testing\exercise1\pages\BasePage.class
+com\globant\testing\exercise1\pages\WhosTravellingPage.class
+com\globant\testing\exercise1\utils\DataRepository.class
+com\globant\testing\exercise1\utils\DataRepository$1.class
+com\globant\testing\exercise1\pages\Calendar.class
+com\globant\testing\exercise1\pages\ReviewYourTripPage.class
+com\globant\testing\exercise1\pages\FlightsSearcherForm.class
+com\globant\testing\exercise1\pages\ResultFlightsPage.class
